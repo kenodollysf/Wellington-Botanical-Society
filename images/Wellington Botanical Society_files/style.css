@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h1 {
+  font-weight: 800; }
+
+.title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  color: #FFFFFF; }
+
+.title-moari {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #575755; }
+
+.col-1 {
+  width: 8.3333333333%; }
+
+.col-2 {
+  width: 16.6666666667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.3333333333%; }
+
+.col-5 {
+  width: 41.6666666667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.3333333333%; }
+
+.col-8 {
+  width: 66.6666666667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.3333333333%; }
+
+.col-11 {
+  width: 91.6666666667%; }
+
+.col-12 {
+  width: 100%; }
+
+.title-div {
+  width: 98%;
+  height: 146px;
+  left: 7px;
+  top: 14px;
+  background-color: #AFCB54;
+  border: 4px solid #575755;
+  border-radius: 38px; }
+
+.top-nav {
+  width: 90%;
+  height: 73px;
+  left: 7px;
+  top: 180px;
+  background-color: #AFCB54;
+  border: 4px solid #575755;
+  border-radius: 38px;
+  position: absolute;
+  padding: 20px 20px; }
+  .top-nav a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none; }
+
+body {
+  background-image: url("../images/background.jpeg"); }
+
+/*# sourceMappingURL=style.css.map */

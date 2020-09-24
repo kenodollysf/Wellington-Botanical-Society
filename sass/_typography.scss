@@ -1,0 +1,102 @@
+h1{
+  font-weight: 800;
+}
+
+.title{
+  @include font(Roboto,normal,bold,70px);
+  text-align: center;
+  color: $font-main;
+}
+
+.title-moari{
+  @include font(Roboto,normal,bold,30px);
+  text-align: center;
+  color: $secondary-color;
+}
+
+.heading{
+  @include font(Roboto,normal,bold,28px);
+  color: $font-main;
+  text-align: center;
+  padding: 20px;
+}
+
+.covid{
+  @include font(Roboto,normal,500,16px);
+  color: $font-covid;
+  padding: 40px 10px;
+  margin: 10px 10%;
+  display: block;
+  white-space: pre-line;
+  // text-align: center;
+}
+
+.para{
+  @include font(Roboto,normal,500,16px);
+  color: $font-main;
+  padding: 40px 40px;
+  margin: auto 30px;
+  display: block;
+  white-space: pre-line;
+}
+
+.para-head{
+  @include font(Roboto,normal,bold,20px);
+  color: $font-main;
+  text-align: center;
+  padding: 20px;
+}
+
+.foot{
+  @include font(Roboto,normal,500,16px);
+  color: $font-main;
+  padding: 4px 4px;
+  display: block;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.heading-covid{
+  @include font(Roboto,mormal,bold,20px);
+  color: $font-covid;
+  display: block;
+  text-align: center;
+}
+
+.form-head{
+  @include font(Roboto,normal,500,16px);
+  color: $font-main;
+  padding: 4px 400px;
+  display: block;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.form-bot{
+  @include font(Roboto,normal,500,16px);
+  color: $font-main;
+  padding: 40px 4px;
+  margin: auto 30%;
+  display: block;
+  white-space: pre-line;
+}
+
+.mem-type{
+  @include font(Roboto,normal,500,22px);
+  color: $font-main;
+  text-align: center;
+  padding: 15px;
+}
+
+.price-font{
+  @include font(Roboto,normal,bold,60px);
+  color: $font-main;
+  text-align: center;
+  line-height: 120px;
+}
+
+.join-font{
+  @include font(Roboto,normal,500,24px);
+  color: $secondary-color;
+  text-align: center;
+}

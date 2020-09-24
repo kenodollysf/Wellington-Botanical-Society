@@ -1,0 +1,13 @@
+@mixin dimensions($w,$h,$p,$m){
+  width: $w;
+  height: $h;
+  padding: $p;
+  margin: $m;
+}
+
+@mixin font($ff,$fs,$fw,$fsi){
+  font-family: $ff;
+  font-style: $fs;
+  font-weight: $fw;
+  font-size: $fsi;
+}

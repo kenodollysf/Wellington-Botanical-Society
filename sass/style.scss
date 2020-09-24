@@ -1,0 +1,22 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+@import 'typography';
+@import 'buttons';
+@import 'containers';
+@import 'images';
+@import 'mobile';
+@import 'tablet';
+@import 'desktop';
+
+
+
+body{
+  background-image:  url('../images/background.jpeg');
+  width:100%;
+  height: 100%;
+}
+
+li{
+  list-style: none;
+}
